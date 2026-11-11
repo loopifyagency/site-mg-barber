@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MG Barber · Barbier à Brest · Coupe homme et barbe</title>
+  <meta name="description" content="MG Barber, barbier à Brest (21 rue de la Porte) : coupe homme, barbe et finitions soignées. Ouvert du mardi au samedi, de 9 h à 19 h. Rendez-vous au 06 15 70 83 50.">
+  <meta name="theme-color" content="#0E0B09">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="MG Barber · Barbier à Brest">
+  <meta property="og:description" content="Coupe homme, barbe et finitions à Brest. Du mardi au samedi, 9 h – 19 h. 21 rue de la Porte.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <link rel="preload" href="assets/fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/vendor/lenis.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "MG Barber",
+    "description": "Barbier à Brest : coupe homme, barbe et finitions.",
+    "telephone": "+33615708350",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "21 Rue de la Porte",
+      "postalCode": "29200",
+      "addressLocality": "Brest",
+      "addressCountry": "FR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "hasMap": "https://maps.app.goo.gl/5xAoWRV17cNz8Hnp7",
+    "areaServed": "Brest"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ============ Sprite SVG ============ -->
+  <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="bulbGlass" cx="50%" cy="58%" r="60%">
+        <stop offset="0" stop-color="#FFEBC4"/>
+        <stop offset=".55" stop-color="#F2BE72"/>
+        <stop offset="1" stop-color="#C8805A"/>
+      </radialGradient>
+    </defs>
+    <symbol id="i-octagon" viewBox="0 0 100 100"><polygon points="29.3,1 70.7,1 99,29.3 99,70.7 70.7,99 29.3,99 1,70.7 1,29.3" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3.2l1.6 4.2-2 1.3a11 11 0 0 0 5.7 5.7l1.3-2 4.2 1.6V18a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M20 12H4M10 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4M6 10l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="bulb" viewBox="0 0 64 112">
+      <rect x="23" y="0" width="18" height="30" rx="2" fill="#2A211A"/>
+      <rect x="23" y="8" width="18" height="3" fill="#C8805A"/>
+      <rect x="23" y="16" width="18" height="3" fill="#C8805A"/>
+      <path d="M24 30h16l1 14c9 4 17 12 17 23a26 26 0 0 1-52 0c0-11 8-19 17-23z" fill="url(#bulbGlass)"/>
+      <path d="M27 94V70M37 94V70M27 70c0-6 10-6 10 0" fill="none" stroke="#FFF3D6" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- ============ Loader ============ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__iris"></div>
+    <div class="loader__inner">
+      <div class="loader__mark">
+        <svg viewBox="0 0 100 100" class="loader__oct"><polygon points="29.3,1 70.7,1 99,29.3 99,70.7 70.7,99 29.3,99 1,70.7 1,29.3" pathLength="1" fill="none" stroke="currentColor" stroke-width="1.4" vector-effect="non-scaling-stroke"/></svg>
+        <span class="loader__mg">MG</span>
+      </div>
+      <div class="loader__count"><span id="loader-num">00</span><small>%</small></div>
+      <p class="loader__tag">Barbier · Brest</p>
+    </div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="pole" aria-hidden="true"><i class="pole__fill"></i></div>
+
+  <!-- ============ En-tête ============ -->
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="MG Barber, retour en haut">
+      <span class="brand__oct"><svg><use href="#i-octagon"/></svg><b>MG</b></span>
+      <span class="brand__name">MG Barber</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#salon">Le salon</a>
+      <a href="#prestations">Prestations</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#acces">Horaires &amp; accès</a>
+    </nav>
+    <a class="header-call btn btn--small btn--magnetic" href="tel:+33615708350">
+      <span class="btn__in"><svg class="ico"><use href="#i-phone"/></svg><span>06 15 70 83 50</span></span>
+    </a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__nav" aria-label="Menu mobile">
+      <a href="#salon"><span>Le salon</span></a>
+      <a href="#prestations"><span>Prestations</span></a>
+      <a href="#galerie"><span>Galerie</span></a>
+      <a href="#avis"><span>Avis</span></a>
+      <a href="#rendez-vous"><span>Rendez-vous</span></a>
+      <a href="#acces"><span>Horaires &amp; accès</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a class="btn btn--primary" href="tel:+33615708350"><span class="btn__in"><svg class="ico"><use href="#i-phone"/></svg><span>Appeler le 06 15 70 83 50</span></span></a>
+      <p>21 rue de la Porte, 29200 Brest</p>
+    </div>
+  </div>
+
+  <a class="fab" id="fab" href="tel:+33615708350" aria-label="Appeler MG Barber au 06 15 70 83 50">
+    <svg class="ico"><use href="#i-phone"/></svg><span>Appeler</span>
+  </a>
+
+  <main id="contenu">
+
+    <!-- ============ 1. Hero : la feuille du jour ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__wall" data-depth="wall" aria-hidden="true"></div>
+      <div class="hero__light" aria-hidden="true"></div>
+
+      <div class="hero__bulbs" aria-hidden="true">
+        <div class="bulb bulb--a" data-depth="bulb"><i class="bulb__cord"></i><svg class="bulb__svg"><use href="#bulb"/></svg><i class="bulb__glow"></i></div>
+        <div class="bulb bulb--b" data-depth="bulb"><i class="bulb__cord"></i><svg class="bulb__svg"><use href="#bulb"/></svg><i class="bulb__glow"></i></div>
+        <div class="bulb bulb--c" data-depth="bulb"><i class="bulb__cord"></i><svg class="bulb__svg"><use href="#bulb"/></svg><i class="bulb__glow"></i></div>
+      </div>
+
+      <div class="hero__ruler" id="ruler" aria-hidden="true">
+        <ol class="ruler">
+          <li><span>9</span><i></i></li><li><span>10</span><i></i></li><li><span>11</span><i></i></li>
+          <li><span>12</span><i></i></li><li><span>13</span><i></i></li><li><span>14</span><i></i></li>
+          <li><span>15</span><i></i></li><li><span>16</span><i></i></li><li><span>17</span><i></i></li>
+          <li><span>18</span><i></i></li><li><span>19</span><i></i></li>
+        </ol>
+        <div class="now" id="now">
+          <i class="now__line"></i>
+          <span class="now__chip" id="now-time">9&nbsp;h</span>
+        </div>
+      </div>
+
+      <figure class="hero__photo" data-depth="photo">
+        <div class="octa octa--ring" style="--cut:clamp(26px,3.4vw,52px)">
+          <div class="octa__in"><img src="assets/img/salon-baie-vitree.jpg" width="390" height="650" alt="Intérieur du salon MG Barber : un fauteuil de barbier ancien devant la baie vitrée, miroir et étagère en bois, murs noirs et pierre apparente" fetchpriority="high"><i class="curtain"></i></div>
+        </div>
+      </figure>
+
+      <h1 class="hero__title" id="hero-title" data-depth="title">
+        <span class="hero__line hero__line--1">MG</span>
+        <span class="hero__line hero__line--2">Barber</span>
+        <span class="sr-only"> — barbier à Brest</span>
+      </h1>
+
+      <div class="hero__foot">
+        <div class="hero__copy">
+          <p class="hero__lede">Coiffure homme à Brest. Coupe nette, barbe tracée, finitions propres : on entre, on explique, on ressort net.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--magnetic" href="tel:+33615708350"><span class="btn__in"><svg class="ico"><use href="#i-phone"/></svg><span>Prendre rendez-vous</span></span></a>
+            <a class="btn btn--ghost btn--magnetic" href="#acces"><span class="btn__in"><span>Voir les horaires</span><svg class="ico"><use href="#i-arrow-r"/></svg></span></a>
+          </div>
+        </div>
+        <div class="hero__side">
+          <p class="hero__status" id="hero-status"><i class="dot"></i><span id="now-label">Mardi – samedi · 9&nbsp;h – 19&nbsp;h</span></p>
+          <address class="hero__addr">
+            <svg class="ico"><use href="#i-pin"/></svg>
+            <span>21 rue de la Porte<br>29200 Brest</span>
+          </address>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. Rubans ============ -->
+    <div class="ribbons" aria-hidden="true">
+      <div class="ribbon ribbon--a" data-dir="-1">
+        <div class="ribbon__track">
+          <span>Coupe homme</span><i class="oct"></i><span>Dégradé</span><i class="oct"></i><span>Barbe</span><i class="oct"></i><span>Contours</span><i class="oct"></i><span>Finitions</span><i class="oct"></i><span>Lames propres</span><i class="oct"></i><span>Brest</span><i class="oct"></i>
+        </div>
+      </div>
+      <div class="ribbon ribbon--b" data-dir="1">
+        <div class="ribbon__track">
+          <span>Rapide</span><i class="oct"></i><span>Net</span><i class="oct"></i><span>Efficace</span><i class="oct"></i><span>Du mardi au samedi</span><i class="oct"></i><span>9 h – 19 h</span><i class="oct"></i><span>Rapide</span><i class="oct"></i><span>Net</span><i class="oct"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 3. Le salon : section épinglée ============ -->
+    <section class="story" id="salon" aria-labelledby="salon-title">
+      <div class="story__stage">
+        <h2 class="story__title" id="salon-title" data-split>Le salon</h2>
+        <ol class="story__steps">
+          <li class="step">
+            <figure class="step__fig">
+              <div class="octa" style="--cut:clamp(24px,3vw,46px)"><div class="octa__in"><img src="assets/img/salon-fauteuil.jpg" width="406" height="800" loading="lazy" alt="Le salon vu de l'entrée : fauteuil de barbier en cuir noir et cuivre devant un grand miroir, bac à shampoing au fond, ampoules à filament suspendues et mur de pierre"><i class="curtain"></i></div></div>
+            </figure>
+            <div class="step__txt">
+              <h3 data-split>Noir, pierre, bois.</h3>
+              <p>Murs noirs, parement de pierre, lattes de bois et ampoules à filament suspendues : un salon qui a le look d'un atelier et la lumière d'un bar tranquille.</p>
+            </div>
+          </li>
+          <li class="step">
+            <figure class="step__fig">
+              <div class="octa" style="--cut:clamp(24px,3vw,46px)"><div class="octa__in"><img src="assets/img/fauteuils-cuivre.jpg" width="406" height="800" loading="lazy" alt="Deux fauteuils de barbier à structure cuivrée et cuir noir capitonné, face à un mur de lattes de bois et à un bac à shampoing"><i class="curtain"></i></div></div>
+            </figure>
+            <div class="step__txt">
+              <h3 data-split>Cuivre et cuir.</h3>
+              <p>Des fauteuils à structure cuivrée et cuir noir capitonné, un fauteuil de barbier de style ancien près de la baie vitrée. On s'y installe pour la coupe, pas pour attendre.</p>
+            </div>
+          </li>
+          <li class="step">
+            <figure class="step__fig">
+              <div class="octa" style="--cut:clamp(24px,3vw,46px)"><div class="octa__in"><img src="assets/img/coupe-degrade.jpg" width="390" height="650" loading="lazy" alt="Client vu de dos : coupe dégradée très nette sur les côtés avec chignon sur le dessus"><i class="curtain"></i></div></div>
+            </figure>
+            <div class="step__txt">
+              <h3 data-split>Une coupe, au cordeau.</h3>
+              <p>Dégradé, contours, chignon ou coupe plus sage : tu expliques en deux phrases, le personnel s'adapte. Des mains rapides, un résultat net.</p>
+            </div>
+          </li>
+          <li class="step">
+            <figure class="step__fig">
+              <div class="octa" style="--cut:clamp(24px,3vw,46px)"><div class="octa__in"><img src="assets/img/facade.jpg" width="390" height="650" loading="lazy" alt="Façade de MG Barber, rue de la Porte à Brest : enseigne octogonale avec un profil d'homme barbu, mention « Coiffure homme » et vitrine"><i class="curtain"></i></div></div>
+            </figure>
+            <div class="step__txt">
+              <h3 data-split>Au 21, rue de la Porte.</h3>
+              <p>Repère l'octogone et son barbu en vitrine : à Brest, c'est là. Ouvert du mardi au samedi, de 9&nbsp;h à 19&nbsp;h.</p>
+            </div>
+          </li>
+        </ol>
+        <div class="story__dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ 4. Prestations ============ -->
+    <section class="svc sec--paper" id="prestations" aria-labelledby="svc-title">
+      <div class="wrap">
+        <div class="svc__head">
+          <h2 id="svc-title" data-split>Coupe, barbe, ou les deux.</h2>
+          <p class="svc__lead" data-fade>Trois façons de ressortir net. Tu expliques ce que tu veux, le personnel s'adapte à partir d'une demande simple : c'est ce que disent les clients, pas seulement nous.</p>
+        </div>
+
+        <div class="svc__grid">
+          <article class="svc__card svc__card--coupe tilt">
+            <div class="tilt__in">
+              <h3>Coupe</h3>
+              <p>Dégradé, contours, chignon ou coupe classique. Rapide, précis, et rien qui gratte dans le col une fois terminé.</p>
+              <ul><li>Dégradé &amp; contours</li><li>Coupe classique ou travaillée</li><li>Finitions</li></ul>
+              <a class="svc__go" href="#rendez-vous"><span>Choisir un créneau</span><svg class="ico"><use href="#i-arrow-r"/></svg></a>
+            </div>
+            <i class="tilt__glare"></i><i class="rivet rivet--tl"></i><i class="rivet rivet--br"></i>
+          </article>
+
+          <article class="svc__card svc__card--barbe tilt">
+            <div class="tilt__in">
+              <h3>Barbe</h3>
+              <p>Taille, contours et mise en forme, avec du matériel de bonne qualité et des lames propres.</p>
+              <ul><li>Taille &amp; entretien</li><li>Contours nets</li><li>Mise en forme</li></ul>
+              <a class="svc__go" href="#rendez-vous"><span>Choisir un créneau</span><svg class="ico"><use href="#i-arrow-r"/></svg></a>
+            </div>
+            <i class="tilt__glare"></i><i class="rivet rivet--tl"></i><i class="rivet rivet--br"></i>
+          </article>
+
+          <article class="svc__card svc__card--duo tilt">
+            <div class="tilt__in">
+              <h3>Coupe <span>+</span> barbe</h3>
+              <p>Les deux dans la même visite, pensés ensemble pour un rendu cohérent. Un client le range parmi les très bons rapports qualité-prix.</p>
+              <ul><li>Cheveux &amp; barbe</li><li>Une seule visite</li><li>Tarifs sur demande, au salon ou par téléphone</li></ul>
+              <a class="svc__go" href="#rendez-vous"><span>Choisir un créneau</span><svg class="ico"><use href="#i-arrow-r"/></svg></a>
+            </div>
+            <i class="tilt__glare"></i><i class="rivet rivet--tl"></i><i class="rivet rivet--br"></i>
+          </article>
+          <!-- Tarifs : ajouter un <p class="svc__price"> dans chaque carte quand ils seront fournis. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. Une visite en cinq temps : défilement horizontal ============ -->
+    <section class="visit" id="visite" aria-labelledby="visit-title">
+      <div class="visit__pin">
+        <h2 class="visit__title" id="visit-title" data-split>Une visite, en cinq temps</h2>
+        <div class="visit__track">
+          <article class="vstep">
+            <span class="vstep__n" aria-hidden="true">1</span>
+            <h3>On te reçoit.</h3>
+            <p>« Bel accueil », écrit un client. Tu entres, on s'occupe de toi. En heure de pointe, l'attente peut s'allonger : un coup de fil avant de venir, et c'est réglé.</p>
+          </article>
+          <article class="vstep">
+            <span class="vstep__n" aria-hidden="true">2</span>
+            <h3>Tu dis ce que tu veux.</h3>
+            <p>Une demande simple suffit. Du détail de la barbe à la coupe plus travaillée, le personnel s'adapte.</p>
+          </article>
+          <article class="vstep">
+            <span class="vstep__n" aria-hidden="true">3</span>
+            <h3>On coupe.</h3>
+            <p>Du matériel de bonne qualité, des lames propres, des gestes sûrs. Cheveux et barbe, avec une efficacité qui surprend, relève un client.</p>
+          </article>
+          <article class="vstep">
+            <span class="vstep__n" aria-hidden="true">4</span>
+            <h3>On parle, ou pas.</h3>
+            <p>Selon les jours et les clients, l'échange est là ou il ne l'est pas : ce qui compte ici, c'est la coupe. Plusieurs avis le notent, sans que cela gâche la visite.</p>
+          </article>
+          <article class="vstep">
+            <span class="vstep__n" aria-hidden="true">5</span>
+            <h3>Pas un cheveu dans le col.</h3>
+            <p>À la fin, aucune sensation de cheveux tombés dans le t-shirt, signale un client. Tu repars propre, net, et vite.</p>
+          </article>
+        </div>
+        <div class="visit__rail" aria-hidden="true"><i class="visit__needle"></i></div>
+      </div>
+    </section>
+
+    <!-- ============ 6. Chiffres : le total du grand-livre ============ -->
+    <section class="ledger sec--paper sec--flip" id="chiffres" aria-labelledby="ledger-title">
+      <div class="wrap">
+        <h2 id="ledger-title" data-split>Le compte est bon.</h2>
+        <dl class="ledger__rows">
+          <div class="lrow"><dt>barbiers au fauteuil</dt><dd><span data-count="2">2</span></dd></div>
+          <div class="lrow"><dt>jours d'ouverture par semaine</dt><dd><span data-count="5">5</span></dd></div>
+          <div class="lrow"><dt>heures par jour, de 9&nbsp;h à 19&nbsp;h</dt><dd><span data-count="10">10</span></dd></div>
+          <div class="lrow lrow--total"><dt>heures d'ouverture par semaine</dt><dd><span data-count="50">50</span></dd></div>
+        </dl>
+        <p class="ledger__note" data-fade>Les heures de pointe existent : le plus simple pour éviter l'attente, c'est d'appeler avant de passer.</p>
+      </div>
+    </section>
+
+    <!-- ============ 7. Galerie ============ -->
+    <section class="gallery" id="galerie" aria-labelledby="gal-title">
+      <div class="wrap">
+        <h2 id="gal-title" data-split>Regarde de plus près.</h2>
+        <div class="gallery__grid">
+          <figure class="tile tile--1 tilt" data-speed="-50">
+            <div class="octa" style="--cut:clamp(22px,2.6vw,40px)"><div class="octa__in"><img src="assets/img/salon-fauteuil.jpg" width="406" height="800" loading="lazy" alt="Fauteuil de barbier sous les ampoules suspendues, face au grand miroir du salon"><i class="curtain"></i><i class="tilt__glare"></i></div></div>
+            <figcaption>Le fauteuil sous les ampoules</figcaption>
+          </figure>
+          <figure class="tile tile--2 tilt" data-speed="40">
+            <div class="octa" style="--cut:clamp(22px,2.6vw,40px)"><div class="octa__in"><img src="assets/img/fauteuils-cuivre.jpg" width="406" height="800" loading="lazy" alt="Fauteuils de barbier cuivrés à l'assise en cuir noir"><i class="curtain"></i><i class="tilt__glare"></i></div></div>
+            <figcaption>Cuivre et cuir noir</figcaption>
+          </figure>
+          <figure class="tile tile--3 tilt" data-speed="-30">
+            <div class="octa" style="--cut:clamp(22px,2.6vw,40px)"><div class="octa__in"><img src="assets/img/coupe-degrade.jpg" width="390" height="650" loading="lazy" alt="Dégradé net avec chignon, vu de dos"><i class="curtain"></i><i class="tilt__glare"></i></div></div>
+            <figcaption>Dégradé, chignon</figcaption>
+          </figure>
+          <figure class="tile tile--4 tilt" data-speed="60">
+            <div class="octa" style="--cut:clamp(22px,2.6vw,40px)"><div class="octa__in"><img src="assets/img/salon-baie-vitree.jpg" width="390" height="650" loading="lazy" alt="Côté baie vitrée du salon : fauteuil ancien, miroir et poutre de bois"><i class="curtain"></i><i class="tilt__glare"></i></div></div>
+            <figcaption>Côté baie vitrée</figcaption>
+          </figure>
+          <figure class="tile tile--5 tilt" data-speed="-20">
+            <div class="octa" style="--cut:clamp(22px,2.6vw,40px)"><div class="octa__in"><img src="assets/img/facade.jpg" width="390" height="650" loading="lazy" alt="Façade de MG Barber avec l'enseigne octogonale et la mention Coiffure homme"><i class="curtain"></i><i class="tilt__glare"></i></div></div>
+            <figcaption>La façade, rue de la Porte</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. Avis clients ============ -->
+    <section class="reviews" id="avis" aria-labelledby="rev-title">
+      <div class="wrap reviews__wrap">
+        <div class="reviews__side">
+          <h2 id="rev-title" data-split>Ce qu'ils en disent.</h2>
+          <p class="reviews__sub" data-fade>Avis de clients, repris tels quels.</p>
+          <div class="reviews__controls" id="rev-controls" hidden>
+            <button class="rbtn" id="rev-prev" aria-label="Avis précédent"><svg class="ico"><use href="#i-arrow-l"/></svg></button>
+            <div class="rprog" aria-hidden="true"><i id="rev-bar"></i></div>
+            <button class="rbtn" id="rev-next" aria-label="Avis suivant"><svg class="ico"><use href="#i-arrow-r"/></svg></button>
+            <span class="rcount" id="rev-count" aria-live="polite">1 / 5</span>
+          </div>
+        </div>
+
+        <div class="reviews__stage" id="rev-stage" role="group" aria-roledescription="carrousel" aria-label="Avis clients">
+          <article class="review" aria-label="Avis 1 sur 5">
+            <span class="review__mark" aria-hidden="true">“</span>
+            <blockquote class="review__quote review__quote--long">
+              <p class="review__title">Coiffeur au top !</p>
+              <p>Cherchant ce style de salon c'est la perle rare du coin, en entrant le thème sonore peu surprendre mais c'est le seul détail. Pour l'attente cela peut être un peu plus long en heure de pointe. Pendant la prestation le personnel s'adapte à partir d'une demande simple à une efficacité surprenante pour une coupe des cheveux et de la barbe. Pendant la prestation la discussion ne sera pas forcément présente et celà était dans mes attentes. Le matériel est de bonne qualité et l'hygiène des lames est respectée. Un point très sympa est que une fois terminé aucune sensation de cheveux tombé dans le t-shirt. Pour le paiement avec cheveux + barbe cela était de 20€ donc très correcte pour la qualité de la prestation.</p>
+            </blockquote>
+            <footer class="review__by"><span class="review__oct">UB</span><cite>Ulti Blix</cite></footer>
+          </article>
+
+          <article class="review" aria-label="Avis 2 sur 5">
+            <span class="review__mark" aria-hidden="true">“</span>
+            <blockquote class="review__quote">
+              <p>Excellent salon de coiffure. Très bon coiffeur et barbier. Amabilité du patron et de l'employé. Cependant, ne cherchez pas à avoir une discussion vous n'en aurez aucune. Malgré tout je recommande vivement ce salon de coiffure pour son rapport rapport qualité prix. 👍 …</p>
+            </blockquote>
+            <footer class="review__by"><span class="review__oct">P</span><cite>Pegase</cite></footer>
+          </article>
+
+          <article class="review" aria-label="Avis 3 sur 5">
+            <span class="review__mark" aria-hidden="true">“</span>
+            <blockquote class="review__quote review__quote--short">
+              <p>Super barber, rapide et de qualité ! Je recommande.</p>
+            </blockquote>
+            <footer class="review__by"><span class="review__oct">AK</span><cite>Antoine Kbl</cite></footer>
+          </article>
+
+          <article class="review" aria-label="Avis 4 sur 5">
+            <span class="review__mark" aria-hidden="true">“</span>
+            <blockquote class="review__quote">
+              <p>Que dire si ce n'est une grosse satisfaction d'avoir enfin trouvé un coiffeur digne de ce nom....bel accueil, bon échange, réponse aux attendus et efficace.</p>
+              <p>Ne cherchez plus, il est là !</p>
+            </blockquote>
+            <footer class="review__by"><span class="review__oct">LB</span><cite>Les Bonnes Astuces</cite></footer>
+          </article>
+
+          <article class="review" aria-label="Avis 5 sur 5">
+            <span class="review__mark" aria-hidden="true">“</span>
+            <blockquote class="review__quote review__quote--short">
+              <p>Meilleur coiffeur j’y vais au moins deux fois par mois! Rapide et efficace 👌🏽</p>
+            </blockquote>
+            <footer class="review__by"><span class="review__oct">CC</span><cite>Clement Coadou</cite></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. Prendre rendez-vous ============ -->
+    <section class="book sec--paper" id="rendez-vous" aria-labelledby="book-title">
+      <div class="wrap book__wrap">
+        <div class="book__copy">
+          <h2 id="book-title" data-split>Réserve ton créneau.</h2>
+          <p data-fade>Choisis un jour et une heure, puis appelle : le rendez-vous se confirme au téléphone, selon les disponibilités du salon.</p>
+        </div>
+
+        <form class="slip" id="slip" onsubmit="return false">
+          <fieldset class="slip__days">
+            <legend>Jour</legend>
+            <label class="chip chip--off"><input type="radio" name="jour" value="1" disabled><span>Lun<small>fermé</small></span></label>
+            <label class="chip"><input type="radio" name="jour" value="2" checked><span>Mar</span></label>
+            <label class="chip"><input type="radio" name="jour" value="3"><span>Mer</span></label>
+            <label class="chip"><input type="radio" name="jour" value="4"><span>Jeu</span></label>
+            <label class="chip"><input type="radio" name="jour" value="5"><span>Ven</span></label>
+            <label class="chip"><input type="radio" name="jour" value="6"><span>Sam</span></label>
+            <label class="chip chip--off"><input type="radio" name="jour" value="0" disabled><span>Dim<small>fermé</small></span></label>
+          </fieldset>
+
+          <fieldset class="slip__hours">
+            <legend>Heure</legend>
+            <label class="chip"><input type="radio" name="heure" value="9"><span>9 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="10"><span>10 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="11"><span>11 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="12"><span>12 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="13"><span>13 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="14"><span>14 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="15"><span>15 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="16"><span>16 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="17" checked><span>17 h</span></label>
+            <label class="chip"><input type="radio" name="heure" value="18"><span>18 h</span></label>
+          </fieldset>
+
+          <div class="slip__out" aria-live="polite">
+            <p class="slip__when" id="slip-when">Mardi, vers 17 h</p>
+            <p class="slip__say" id="slip-say">« Bonjour, je voudrais un rendez-vous mardi vers 17 h. »</p>
+          </div>
+
+          <a class="btn btn--primary btn--big btn--magnetic" href="tel:+33615708350">
+            <span class="btn__in"><svg class="ico"><use href="#i-phone"/></svg><span>Appeler le 06 15 70 83 50</span></span>
+          </a>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ 10. Horaires & accès ============ -->
+    <section class="find" id="acces" aria-labelledby="find-title">
+      <div class="wrap find__wrap">
+        <div class="find__info">
+          <h2 id="find-title" data-split>Nous trouver.</h2>
+          <p class="find__status" id="status" aria-live="polite"><i class="dot"></i><span>Mardi – samedi · 9&nbsp;h – 19&nbsp;h</span></p>
+
+          <ul class="week" id="week" aria-label="Horaires d'ouverture">
+            <li data-dow="1" class="is-off"><span class="week__d">Lundi</span><span class="week__bar"><i></i></span><span class="week__h">Fermé</span></li>
+            <li data-dow="2"><span class="week__d">Mardi</span><span class="week__bar"><i></i></span><span class="week__h">9&nbsp;h – 19&nbsp;h</span></li>
+            <li data-dow="3"><span class="week__d">Mercredi</span><span class="week__bar"><i></i></span><span class="week__h">9&nbsp;h – 19&nbsp;h</span></li>
+            <li data-dow="4"><span class="week__d">Jeudi</span><span class="week__bar"><i></i></span><span class="week__h">9&nbsp;h – 19&nbsp;h</span></li>
+            <li data-dow="5"><span class="week__d">Vendredi</span><span class="week__bar"><i></i></span><span class="week__h">9&nbsp;h – 19&nbsp;h</span></li>
+            <li data-dow="6"><span class="week__d">Samedi</span><span class="week__bar"><i></i></span><span class="week__h">9&nbsp;h – 19&nbsp;h</span></li>
+            <li data-dow="0" class="is-off"><span class="week__d">Dimanche</span><span class="week__bar"><i></i></span><span class="week__h">Fermé</span></li>
+          </ul>
+          <p class="find__note">Les jours fériés, les horaires peuvent être modifiés : dans le doute, appelle avant de passer.</p>
+
+          <address class="find__addr">
+            <a href="https://maps.app.goo.gl/5xAoWRV17cNz8Hnp7" target="_blank" rel="noopener noreferrer"><svg class="ico"><use href="#i-pin"/></svg><span>21 rue de la Porte, 29200 Brest</span><svg class="ico ico--s"><use href="#i-arrow-ur"/></svg></a>
+            <a href="tel:+33615708350"><svg class="ico"><use href="#i-phone"/></svg><span>06 15 70 83 50</span></a>
+          </address>
+        </div>
+
+        <div class="find__map">
+          <div class="octa octa--ring" style="--cut:clamp(26px,3.4vw,52px)">
+            <div class="octa__in map">
+              <iframe title="Carte Google Maps : MG Barber, 21 rue de la Porte, 29200 Brest" src="https://www.google.com/maps?q=21+Rue+de+la+Porte,+29200+Brest&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+              <a class="map__link" href="https://maps.app.goo.gl/5xAoWRV17cNz8Hnp7" target="_blank" rel="noopener noreferrer">
+                <span class="map__pill"><span>Ouvrir dans Google Maps</span><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Pied de page ============ -->
+  <footer class="foot sec--paper" id="footer">
+    <div class="foot__big" aria-hidden="true"><span>MG</span> <span>Barber</span></div>
+    <div class="wrap foot__row">
+      <p class="foot__tag">Coiffure homme · Brest</p>
+      <nav class="foot__nav" aria-label="Pied de page">
+        <a href="#salon">Le salon</a>
+        <a href="#prestations">Prestations</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#avis">Avis</a>
+        <a href="#acces">Horaires &amp; accès</a>
+        <a href="https://maps.app.goo.gl/5xAoWRV17cNz8Hnp7" target="_blank" rel="noopener noreferrer">Google Maps</a>
+      </nav>
+      <p class="foot__contact"><a href="tel:+33615708350">06 15 70 83 50</a><br>21 rue de la Porte, 29200 Brest</p>
+      <a class="foot__top" href="#top"><span>Haut de page</span><svg class="ico"><use href="#i-arrow-up"/></svg></a>
+    </div>
+    <p class="foot__legal wrap">© 2026 MG Barber · Brest</p>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
